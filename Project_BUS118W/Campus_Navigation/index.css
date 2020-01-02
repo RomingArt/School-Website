@@ -1,0 +1,76 @@
+/*CSS Style Sheet for the main Page
+
+background Color = lightgrey
+Menue Color = #1D67BC (Hex) rgb(29, 103, 188)
+Background color scrolling over dropdown: #EFCB1B rgb(239, 203, 27)*/
+
+.header {
+	background-image: url("sjsulogoheader.jpg");
+	background-repeat: repeat;
+	background-position: center;
+	background-size: contain;
+	padding: 20px;
+	text-align: center;
+	color: #EFCB1B;
+}
+
+body {
+	background-color: lightgrey;
+}
+
+/*Layour for the Menue with Dropdown*/
+
+/* Box where Menue is displayed in*/
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #1D67BC;
+}
+
+li {
+	float: left;
+}
+
+/*Position and Colour of the Links in the Menue Box*/
+li a, .dropbtn {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/*Color when you scroll over the Links in the Menue*/
+li a:hover, .dropdown:hover .dropbtn {
+	background-color: #EFCB1B;
+}
+
+li.dropdown{
+	display: inline-block;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #1D67BC;
+	min-width: 160px;
+	z-index: 1;
+}
+.dropdown-content a {
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #EFCB1B}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+
+

@@ -1,0 +1,61 @@
+/*CSS for Campus Map and Course Schedule pages */
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-grow: 1;
+    flex: none;
+}
+
+#searchInput {
+  background-repeat: no-repeat;
+  width: 250px;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid black;
+  order: 2;
+  max-width: 250px;
+  margin: 20px 20px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+   
+}
+
+#myTable th,
+#myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header{
+    background: #42f4f4;
+}
+#myTable tr:hover {
+  background-color: #f1f1f1;
+
+    
+}
+
+
+
+
+#campusMap{
+    width:650px;
+    height:700px;
+    order: 1;
+}
+#myTable{
+    width: 600px;
+    order; 3;
+}

@@ -1,0 +1,5 @@
+Project Web based Computing, Fall Semester 2018
+Group Members: Lena Michel, Tony Bui, Shanan Ching, Saul Ascencio
+Professor: add Professor name
+
+Our Project is seperated in different Folders. Each Folder represents a new webpage and is named after the content on the website. Root directory is "Project_BUS118W" with index.html as Mainpage.

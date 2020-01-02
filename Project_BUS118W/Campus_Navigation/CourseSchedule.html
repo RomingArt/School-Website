@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+    	<title>Project</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="styleSheet" href="classTable.css">
+	</head>
+	
+	<div class="header">
+		<h1></h1>
+	</div>
+	
+	<body>
+		
+	<ul>
+		<li><a href="../index.html">Home</a></li>
+		<li><a href="#news">News</a></li>
+		<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">Campus Living</a>
+			<div class ="dropdown-content">
+				<a href="../HousingFood/housingnew.html">Housing</a>
+				<a href="../HousingFood/food.html">Food</a>
+				<a href="../HousingFood/recreation.html">Sports</a>
+			</div>
+		</li>
+		<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">Studying</a>
+			<div class ="dropdown-content">
+				<a href="../Class_Discussion/mainSecond.html">Professors</a>
+				<a href="CourseSchedule.html">Classes</a>
+			</div>
+		</li>
+		<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">SJSU Online Service</a>
+			<div class ="dropdown-content">
+				<a href="https://mail.google.com">SJSU Mail</a>
+				<a href="https://sjsu.instructure.com">Canvas</a>
+				<a href="https://one.sjsu.edu">My SJSU</a>
+			</div>
+		</li>
+		<li><a href="campusMap.html">Campus Navigation</a></li>
+		<li><a href="../Contact">Contact</a></li>
+	</ul>	
+
+	
+
+		
+	 <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Search for MIS classes..">
+
+<table id="myTable">
+ <thead>
+  <tr class="header">
+    <th style="width:18%;">Course</th>
+    <th style="width:20%;">Title</th>
+    <th style="width:18%;">Sec</th>
+    <th style="width:18%;">Days</th>
+    <th style="width:18%;">Times</th>
+    <th style="width:18%;">Code</th>  
+  </tr>
+ </thead> 
+ <tbody>   
+  <tr>
+    <td>BUS4 091A</td>
+    <td>Adv Comp Tools Bus</td>
+    <td>s01</td>
+    <td>M</td>
+    <td>1630-1745</td>
+    <td>17228</td>
+      
+  </tr>
+  <tr>
+    <td>BUS4 091L</td>
+    <td>Comp Tools for Bus</td>
+    <td>s01</td>
+    <td>T</td>
+    <td>1800-1915</td>
+    <td>28029</td>
+  </tr>
+  <tr>
+     <td>BUS4 091L</td>
+    <td>Comp Tools for Bus</td>
+    <td>s02</td>
+    <td>T</td>
+    <td>1930-2045</td>
+    <td>52261
+  </tr>
+  <tr>
+     <td>BUS4 091L</td>
+    <td>Comp Tools for Bus</td>
+    <td>s03</td>
+    <td>M</td>
+    <td>1800-1915</td>
+    <td>03413</td>
+  </tr>
+    <tr>
+     <td>BUS4 091L</td>
+    <td>Comp Tools for Bus</td>
+    <td>s04</td>
+    <td>M</td>
+    <td>1930-2045</td>
+    <td>97167</td>
+  </tr>
+    <tr>
+     <td>BUS4 091L</td>
+    <td>Comp Tools for Bus</td>
+    <td>s05</td>
+    <td>T</td>
+    <td>1330-1445</td>
+    <td>18022</td>
+  </tr>
+    <tr>
+     <td>BUS4 091L</td>
+    <td>Comp Tools for Bus</td>
+    <td>s06</td>
+    <td>M</td>
+    <td>1500-1615</td>
+    <td>17854</td>
+  </tr>
+    <tr>
+     <td>BUS4 091L</td>
+    <td>Comp Tools for Bus</td>
+    <td>s07</td>
+    <td>T</td>
+    <td>1330-1445</td>
+    <td>24918</td>
+  </tr>
+    <tr>
+     <td>BUS4 091L</td>
+    <td>Comp Tools for Bus</td>
+    <td>s08</td>
+    <td>T</td>
+    <td>1500-1615</td>
+    <td>28029</td>
+  </tr>
+    <tr>
+     <td>BUS4 091L</td>
+    <td>Comp Tools for Bus</td>
+    <td>s09</td>
+    <td>T</td>
+    <td>1800-1915</td>
+    <td>02793</td>
+  </tr>
+    <tr>
+     <td>BUS4 091L</td>
+    <td>Comp Tools for Bus</td>
+    <td>s10</td>
+    <td>W</td>
+    <td>1500-1615</td>
+    <td>06038</td>
+  </tr>
+    <tr>
+     <td>BUS4 091L</td>
+    <td>Comp Tools for Bus</td>
+    <td>s11</td>
+    <td>R</td>
+    <td>1330-1445</td>
+    <td>41545</td>
+  </tr>
+    <tr>
+     <td>BUS4 091L</td>
+    <td>Comp Tools for Bus</td>
+    <td>s12</td>
+    <td>R</td>
+    <td>1500-1615</td>
+    <td>34381</td>
+  </tr>
+    <tr>
+     <td>BUS4 092</td>
+    <td>Intro Bus Prog</td>
+    <td>s01</td>
+    <td>MW</td>
+    <td>1030-1145</td>
+    <td>01547</td>
+  </tr>
+    <tr>
+     <td>BUS4 092</td>
+    <td>Intro Bus Prog</td>
+    <td>s02</td>
+    <td>MW</td>
+    <td>1330-1445</td>
+    <td>31782</td>
+  </tr>
+    <tr>
+     <td>BUS4 092</td>
+    <td>Intro Bus Prog</td>
+    <td>s03</td>
+    <td>TR</td>
+    <td>1030 1145</td>
+    <td>39629</td>
+  </tr>
+     <tr>
+     <td>BUS4 110A</td>
+    <td>Fund Mgmt Info Sys</td>
+    <td>s01</td>
+    <td>TR</td>
+    <td>0900 1015</td>
+    <td>39178</td>
+  </tr>
+     <tr>
+     <td>BUS4 110A</td>
+    <td>Fund Mgmt Info Sys</td>
+    <td>s02</td>
+    <td>TR</td>
+    <td>1030 1145</td>
+    <td>15013</td>
+  </tr>
+     <tr>
+     <td>BUS4 110A</td>
+    <td>Fund Mgmt Info Sys</td>
+    <td>s03</td>
+    <td>TR</td>
+    <td>1200 1315</td>
+    <td>32814</td>
+  </tr>
+     <tr>
+     <td>BUS4 110A</td>
+    <td>Fund Mgmt Info Sys</td>
+    <td>s04</td>
+    <td>W</td>
+    <td>1800 2045</td>
+    <td>37242</td>
+  </tr>
+     <tr>
+     <td>BUS4 110B</td>
+    <td>Sys Analysis & Des</td>
+    <td>s01</td>
+    <td>MW</td>
+    <td>0730 0845</td>
+    <td>66435</td>
+  </tr>
+<tr>
+     <td>BUS4 110B</td>
+    <td>Sys Analysis & Des</td>
+    <td>s01</td>
+    <td>MW</td>
+    <td>0900 1015</td>
+    <td>38003</td>
+  </tr>
+    <tr>
+     <td>BUS4 111</td>
+    <td>Networking & Data</td>
+    <td>s01</td>
+    <td>MW</td>
+    <td>1030 1145</td>
+    <td>79322</td>
+  </tr>
+     <tr>
+     <td>BUS4 111</td>
+    <td>Networking & Data</td>
+    <td>s02</td>
+    <td>MW</td>
+    <td>1200 1315</td>
+    <td>66176</td>
+  </tr>
+     <tr>
+     <td>BUS4 111</td>
+    <td>Networking & Data</td>
+    <td>s03</td>
+    <td>MW</td>
+    <td>1330 1445</td>
+    <td>90888</td>
+  </tr>
+    <tr>
+        <td>BUS4 112</td>
+    <td>Database Mgmt Syst</td>
+    <td>s01</td>
+    <td>TR</td>
+    <td>1500 1615</td>
+    <td>42853</td>
+  </tr>
+     <tr>
+    <td>BUS4 112</td>
+    <td>Database Mgmt Syst</td>
+    <td>s02</td>
+    <td>T</td>
+    <td>1800 2045</td>
+    <td>71876</td>
+  </tr>
+     <tr>
+    <td>BUS4 112</td>
+    <td>Database Mgmt Syst</td>
+    <td>s03</td>
+    <td>M</td>
+    <td>1500 1745</td>
+    <td>18781</td>
+  </tr>
+     <tr>
+    <td>BUS4 116</td>
+    <td>Adv DB Mgmt Sys</td>
+    <td>s01</td>
+    <td>R</td>
+    <td>1800 2045</td>
+    <td>52364</td>
+  </tr>
+     <tr>
+    <td>BUS4 118D</td>
+    <td>Database Mgmt Syst</td>
+    <td>s01</td>
+    <td>MW</td>
+    <td>1200 1315</td>
+    <td>96938</td>
+  </tr>
+     <tr>
+    <td>BUS4 118D</td>
+    <td>Database Mgmt Syst</td>
+    <td>s02</td>
+    <td>MW</td>
+    <td>1500 1615</td>
+    <td>16991</td>
+  </tr>
+      <tr>
+    <td>BUS4 118W</td>
+    <td>Web Based Computin</td>
+    <td>s01</td>
+    <td>MW</td>
+    <td>1030 1145</td>
+    <td>78180</td>
+  </tr>
+     <tr>
+    <td>BUS4 118W</td>
+    <td>Web Based Computin</td>
+    <td>s02</td>
+    <td>W</td>
+    <td>1500 1745</td>
+    <td>78493</td>
+  </tr>
+<tr>
+    <td>BUS4 119A</td>
+    <td>MIS Practicum</td>
+    <td>s01</td>
+    <td>MW</td>
+    <td>1330 1445</td>
+    <td>19663</td>
+  </tr>
+    <tr>
+    <td>BUS4 119A</td>
+    <td>MIS Practicum</td>
+    <td>s02</td>
+    <td>TR</td>
+    <td>1200 1315</td>
+    <td>38461</td>
+  </tr>
+ <tr>
+    <td>BUS4 119A</td>
+    <td>MIS Practicum</td>
+    <td>s03</td>
+    <td>T</td>
+    <td>1800 2045</td>
+    <td>48303</td>
+  </tr>
+    <tr>
+    <td>BUS4 119B</td>
+    <td>Bus Strat Info Sys</td>
+    <td>s01</td>
+    <td>TR</td>
+    <td>0900 1015</td>
+    <td>53748</td>
+  </tr>
+    <tr>
+    <td>BUS4 119B</td>
+    <td>Bus Strat Info Sys</td>
+    <td>s02</td>
+    <td>TR</td>
+    <td>1030 1145</td>
+    <td>81874</td>
+  </tr>
+    <tr>
+    <td>BUS4 119B</td>
+    <td>Bus Strat Info Sys</td>
+    <td>s03</td>
+    <td>TR</td>
+    <td>1330 1445</td>
+    <td>64774</td>
+  </tr>
+     <tr>
+    <td>BUS4 119H</td>
+    <td>Honors Prac in MIS</td>
+    <td>s01</td>
+    <td>M</td>
+    <td>1500 1745</td>
+    <td>35038</td>
+  </tr>
+     <tr>
+    <td>BUS4 180I</td>
+    <td>Ind Studies MIS</td>
+    <td>s01</td>
+    <td>TBA</td>
+    <td>TBA</td>
+    <td>69357</td>
+  </tr>
+     <tr>
+    <td>BUS4 188</td>
+    <td>Business Systems</td>
+    <td>s01</td>
+    <td>MW</td>
+    <td>1200 1315</td>
+    <td>43791</td>
+  </tr>
+     <tr>
+    <td>BUS4 188</td>
+    <td>Business Systems</td>
+    <td>s02</td>
+    <td>M</td>
+    <td>1500 1745</td>
+    <td>96444</td>
+  </tr>
+     <tr>
+    <td>BUS4 188</td>
+    <td>Business Systems</td>
+    <td>s03</td>
+    <td>M</td>
+    <td>1800 2045</td>
+    <td>15849</td>
+  </tr>
+     <tr>
+    <td>BUS4 188</td>
+    <td>Business Systems</td>
+    <td>s04</td>
+    <td>M</td>
+    <td>1800 2045</td>
+    <td>41316</td>
+  </tr>
+     <tr>
+    <td>BUS4 188</td>
+    <td>Business Systems</td>
+    <td>s05</td>
+    <td>TR</td>
+    <td>0900 1015</td>
+    <td>29779</td>
+  </tr>
+     <tr>
+    <td>BUS4 188</td>
+    <td>Business Systems</td>
+    <td>s06</td>
+    <td>TR</td>
+    <td>1030 1145</td>
+    <td>33553</td>
+  </tr>
+     <tr>
+    <td>BUS4 188</td>
+    <td>Business Systems</td>
+    <td>s07</td>
+    <td>TR</td>
+    <td>1200 1315</td>
+    <td>09317</td>
+  </tr>
+     <tr>
+    <td>BUS4 188</td>
+    <td>Business Systems</td>
+    <td>s08</td>
+    <td>TR</td>
+    <td>1330 1445</td>
+    <td>50283</td>
+  </tr>
+     <tr>
+    <td>BUS4 188</td>
+    <td>Business Systems</td>
+    <td>s09</td>
+    <td>T</td>
+    <td>1500 1745</td>
+    <td>88579</td>
+  </tr>
+     <tr>
+    <td>BUS4 188</td>
+    <td>Business Systems</td>
+    <td>s10</td>
+    <td>T</td>
+    <td>1800 2045</td>
+    <td>97145</td>
+  </tr>
+     <tr>
+    <td>BUS4 188</td>
+    <td>Business Systems</td>
+    <td>s11</td>
+    <td>W</td>
+    <td>1500 1745</td>
+    <td>73413</td>
+  </tr>
+     <tr>
+    <td>BUS4 188</td>
+    <td>Business Systems</td>
+    <td>s12</td>
+    <td>W</td>
+    <td>1800 2045</td>
+    <td>51860</td>
+  </tr>
+     <tr>
+    <td>BUS4 188</td>
+    <td>Business Systems</td>
+    <td>s13</td>
+    <td>R</td>
+    <td>1500 1745</td>
+    <td>30770</td>
+  </tr>
+     <tr>
+    <td>BUS4 188</td>
+    <td>Business Systems</td>
+    <td>s14</td>
+    <td>R</td>
+    <td>1800 2045</td>
+    <td>85764</td>
+  </tr>
+     <tr>
+    <td>BUS4 188</td>
+    <td>Business Systems</td>
+     <td>s15</td>
+    <td>R</td>
+    <td>1800 2045</td>
+    <td>52141</td>
+  </tr>
+     <tr>
+    <td>BUS4 188</td>
+    <td>Business Systems</td>
+    <td>s16</td>
+    <td>M</td>
+    <td>1500 1745</td>
+    <td>48296</td>
+  </tr>
+    
+ <tbody>   
+</table>
+		
+	</body>
+	<script>
+function searchFunction(event) {
+    var filter = event.target.value.toUpperCase();
+    var rows = document.querySelector("#myTable tbody").rows;
+    
+    for (var i = 0; i < rows.length; i++) {
+        var firstCol = rows[i].cells[0].textContent.toUpperCase();
+        var secondCol = rows[i].cells[1].textContent.toUpperCase();
+        var thirdCol = rows[i].cells[2].textContent.toUpperCase();
+        var fourthCol = rows[i].cells[3].textContent.toUpperCase();
+        var fifthCol = rows[i].cells[4].textContent.toUpperCase();
+        var sixthCol = rows[i].cells[5].textContent.toUpperCase();
+        if (firstCol.indexOf(filter) > -1 || secondCol.indexOf(filter) > -1 ||  thirdCol.indexOf(filter) > -1 ||  fourthCol.indexOf(filter) > -1 ||  fifthCol.indexOf(filter) > -1 || sixthCol.indexOf(filter) > -1) {
+            rows[i].style.display = "";
+        } else {
+            rows[i].style.display = "none";
+        }      
+    }
+}
+
+document.querySelector('#searchInput').addEventListener('keyup', searchFunction, false);
+</script>
+</html>

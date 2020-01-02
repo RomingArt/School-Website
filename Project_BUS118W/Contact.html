@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+    	<title>Project</title>
+    <link rel="stylesheet" href="index.css">
+
+	</head>
+
+	<div class="header">
+		<h1></h1>
+	</div>
+
+	<body>
+
+
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="http://www.sjsu.edu">News</a></li>
+		<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">Campus Living</a>
+			<div class ="dropdown-content">
+				<a href="HousingFood/housingnew.html" >Housing</a>
+				<a href="HousingFood/food.html">Food</a>
+				<a href="HousingFood/recreation.html" >Sports and Recreation</a>
+			</div>
+		</li>
+		<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">Studying</a>
+			<div class ="dropdown-content">
+				<a href="Class_Discussion/mainSecond.html">Professors</a>
+				<a href="Campus_Navigation/CourseSchedule.html">Classes</a>
+			</div>
+		</li>
+		<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">SJSU Online Service</a>
+			<div class ="dropdown-content">
+				<a href="https://mail.google.com">SJSU Mail</a>
+				<a href="https://sjsu.instructure.com">Canvas</a>
+				<a href="https://one.sjsu.edu">My SJSU</a>
+			</div>
+		</li>
+		<li><a href="Campus_Navigation/campusMap.html">Campus Navigation</a></li>
+		<li><a href="Contact.html">Contact</a></li>
+	</ul>
+
+
+		<adress>
+		Contact<a href="mailto: lenamargarete.michel@sjsu.edu"> Website Support Team</a><br>
+		Visit us at SJSU Campus!<br>
+		One Washington Square <br>
+		San Jose, CA 95192<br>
+	</adress>
+	<style>
+	body {font-family: Arial, Helvetica, sans-serif;}
+	* {box-sizing: border-box;}
+
+	input[type=text], select, textarea {
+	    width: 100%;
+	    padding: 12px;
+	    border: 1px solid #ccc;
+	    border-radius: 4px;
+	    box-sizing: border-box;
+	    margin-top: 6px;
+	    margin-bottom: 16px;
+	    resize: vertical;
+	}
+
+	input[type=submit] {
+	    background-color: #EFCB1B;
+	    color: white;
+	    padding: 12px 20px;
+	    border: none;
+	    border-radius: 4px;
+	    cursor: pointer;
+	}
+
+	input[type=submit]:hover {
+	    background-color: blue;
+	}
+
+	.container {
+	    border-radius: 5px;
+	    background-color: #f2f2f2;
+	    padding: 20px;
+	}
+	</style>
+
+
+	<h3>Contact Form</h3>
+
+	<div class="container">
+	  <form action="/action_page.php">
+	    <label for="fname">First Name</label>
+	    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+	    <label for="lname">Last Name</label>
+	    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+	    <label for="country">Country</label>
+	    <select id="country" name="country">
+	      <option value="australia">Australia</option>
+	      <option value="canada">Canada</option>
+	      <option value="usa">USA</option>
+	    </select>
+
+	    <label for="subject">Subject</label>
+	    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+	    <input type="submit" value="Submit">
+	  </form>
+	</div>
+
+
+
+
+	</body>
+
+</html>

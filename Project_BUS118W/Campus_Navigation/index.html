@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+    	<title>Project</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="styleSheet" href="classTable.css">
+	</head>
+	
+	<div class="header">
+		<h1></h1>
+	</div>
+	
+	<body>
+		
+	<ul>
+		<li><a href="#index">Home</a></li>
+		<li><a href="#news">News</a></li>
+		<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">Campus Living</a>
+			<div class ="dropdown-content">
+				<a href="#">Housing</a>
+				<a href="#">Food</a>
+				<a href="#">Sports</a>
+			</div>
+		</li>
+		<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">Studying</a>
+			<div class ="dropdown-content">
+				<a href="#">Majors</a>
+				<a href="#">Professors</a>
+				<a href="#">Classes</a>
+			</div>
+		</li>
+		<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">SJSU Online Service</a>
+			<div class ="dropdown-content">
+				<a href="#">SJSU Mail</a>
+				<a href="#">Canvas</a>
+				<a href="#">My SJSU</a>
+			</div>
+		</li>
+		<li><a href="#campusnavigation">Campus Navigation</a></li>
+		<li><a href="#contact">Contact</a></li>
+	</ul>	
+	
+	<div class="grid-container">
+	  <div class="item1">1</div>
+	  <div class="item2">2</div>
+	  
+	   
+	</div>
+	
+		<div class="container">
+ <a>
+<img src="assets/Map.jpg" id="campusMap" style="width:650px; height:700px;">     
+</a>          
+        
+ <div id= "searchBox">	
+ <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Search SJSU buildings...">
+</div>       
+        
+<table id="myTable">
+ <thead>
+  <tr class="header">
+    <th style="width:18%;">Abbr</th>
+    <th style="width:20%;">Name</th>
+    <th style="width:18%;">Location</th>
+    
+  </tr>
+ </thead> 
+ <tbody>   
+  <tr>
+    <td>ADM</td>
+    <td>Administration</td>
+    <td>B2</td>
+  </tr>
+   <tr>
+    <td>ART</td>
+    <td>Art Building</td>
+    <td>C3</td>
+  </tr>
+  <tr>
+    <td>ASH</td>
+    <td>Associated Students House</td>
+    <td>D1</td>
+  </tr>
+      <tr>
+    <td>BBC</td>
+    <td>Boccardo Business Complex</td>
+    <td>C4</td>
+  </tr>
+      <tr>
+    <td>BT</td>
+    <td>Business Tower</td>
+    <td>C4</td>
+  </tr>
+      <tr>
+    <td>CC</td>
+    <td>Computer Center</td>
+    <td>B2</td>
+  </tr>
+      <tr>
+    <td>CL</td>
+    <td>Clark Hall</td>
+    <td>B2</td>
+  </tr>
+      <tr>
+    <td>DMH</td>
+    <td>Dudley Moorhead Hall</td>
+    <td>B2</td>
+  </tr>
+      <tr>
+    <td>DH</td>
+    <td>Duncan Hall</td>
+    <td>D1</td>
+  </tr>
+      <tr>
+    <td>DBH</td>
+    <td>Dwight Bentel Hall</td>
+    <td>C2</td>
+  </tr>
+      <tr>
+    <td>ENG</td>
+    <td>Engineering Building</td>
+    <td>B3</td>
+  </tr>
+      <tr>
+    <td>FOB</td>
+    <td>Faculty Offices</td>
+    <td>C2</td>
+  </tr>
+     <tr>
+    <td>HB</td>
+    <td>Health Building</td>
+    <td>C4</td>
+  </tr>  
+     <tr>
+    <td>HGH</td>
+    <td>Hugh Gillis Hall</td>
+    <td>B1</td>
+  </tr>
+      <tr>
+    <td>IS</td>
+    <td>Industrial Studies</td>
+    <td>B4</td>
+  </tr>
+      <tr>
+    <td>IRC</td>
+    <td>Instructional Resource Center</td>
+    <td>B2</td>
+  </tr>
+   <tr>
+    <td>KING</td>
+    <td>Dr. Martin Luther King, Jr. Library</td>
+    <td>B1</td>
+  </tr>
+  <tr>
+    <td>MH</td>
+    <td>MacQuarrie Hall</td>
+    <td>D2</td>
+  </tr>
+      <tr>
+    <td>MUS</td>
+    <td>Music Building</td>
+    <td>C3</td>
+  </tr>
+      <tr>
+    <td>SCI</td>
+    <td>Science Building</td>
+    <td>C1</td>
+  </tr>
+      <tr>
+    <td>SPXC</td>
+    <td>Spartan Complex Central</td>
+    <td>C2</td>
+  </tr>
+      <tr>
+    <td>SPXEL</td>
+    <td>Spartan Complex East</td>
+    <td>C2</td>
+  </tr>
+      <tr>
+    <td>SPM</td>
+    <td>Spartan Memorial</td>
+    <td>C1</td>
+  </tr>
+      <tr>
+    <td>SRAC</td>
+    <td>Student Recreation and Aquatic Center</td>
+    <td>D3</td>
+  </tr>
+      <tr>
+    <td>SWC</td>
+    <td>Student Wellness Center</td>
+    <td>C2</td>
+  </tr>
+      <tr>
+    <td>SSC</td>
+    <td>Student Services Center</td>
+    <td>A4</td>
+  </tr>
+      <tr>
+    <td>SU</td>
+    <td>Diaz Compean Student Union</td>
+    <td>B3</td>
+  </tr>
+     <tr>
+    <td>SH</td>
+    <td>Sweeney Hall</td>
+    <td>D2</td>
+  </tr>  
+     <tr>
+    <td>TH</td>
+    <td>Tower Hall</td>
+    <td>B2</td>
+  </tr>
+      <tr>
+    <td>WSQ</td>
+    <td>Washington Square Hall</td>
+    <td>C1</td>
+  </tr>
+      <tr>
+    <td>YUH</td>
+    <td>Yoshihiro Uchida Hall	</td>
+    <td>C1</td>
+  </tr>
+     <tr>
+    <td>CH</td>
+    <td>Concert Hall</td>
+    <td>C3</td>
+  </tr>
+   <tr>
+    <td>EC</td>
+    <td>Event Center</td>
+    <td>C3</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Hammer Theatre</td>
+    <td></td>
+  </tr>
+      <tr>
+    <td>MD</td>
+    <td>Morris Dailey Auditorium</td>
+    <td>B2</td>
+  </tr>
+      <tr>
+    <td>UT</td>
+    <td>University Theatre</td>
+    <td>B1</td>
+  </tr>
+      <tr>
+    <td>CVA-C</td>
+    <td>Campus Village A - C </td>
+    <td>D4</td>
+  </tr>
+      <tr>
+    <td>CV2</td>
+    <td>Campus Village 2</td>
+    <td>D4</td>
+  </tr>
+      <tr>
+    <td>JWH</td>
+    <td>Joe West Hall</td>
+    <td>D4</td>
+  </tr>
+      <tr>
+    <td>WSH</td>
+    <td>Washburn Hall</td>
+    <td>D3</td>
+  </tr>
+      <tr>
+    <td>CP</td>
+    <td>Cooling Plant</td>
+    <td>C4</td>
+  </tr>
+      <tr>
+    <td>CYA</td>
+    <td>Corporation Yard A</td>
+    <td>B4</td>
+  </tr>
+      <tr>
+    <td>CYB</td>
+    <td>Corporation Yard B</td>
+    <td>B4</td>
+  </tr>
+     <tr>
+    <td>MOD F</td>
+    <td>Modular F</td>
+    <td>B4</td>
+  </tr>  
+     <tr>
+    <td>100A</td>
+    <td>Modular 100A  </td>
+    <td>B4</td>
+  </tr>
+      <tr>
+    <td>100B</td>
+    <td>Modular 100B</td>
+    <td>B4</td>
+  </tr>
+      <tr>
+    <td>ASP</td>
+    <td>AS Print Shop</td>
+    <td>B3</td>
+  </tr> 
+      <tr>
+    <td>BK</td>
+    <td>Bookstore</td>
+    <td>B3</td>
+  </tr>  
+     <tr>
+    <td>CAR</td>
+    <td>Career Center</td>
+    <td>B2</td>
+  </tr>
+      <tr>
+    <td>UPD</td>
+    <td>University Police Department  </td>
+    <td>D2</td>
+  </tr>
+     <tr>
+    <td>ATM</td>
+    <td>Bank of America ATM</td>
+    <td>B4</td>
+  </tr>
+   <tr>
+    <td>ATM</td>
+    <td>Wells Fargo ATM</td>
+    <td>B4</td>
+  </tr>
+  <tr>
+    <td>ATM</td>
+    <td>Chase ATM</td>
+    <td>B4</td>
+  </tr>
+      <tr>
+    <td>SU</td>
+    <td>US Bank Branch and ATM, Student Union</td>
+    <td>B3</td>
+  </tr>
+      <tr>
+    <td>EC</td>
+    <td>ATM, Event Center</td>
+    <td>C3</td>
+  </tr>
+      <tr>
+    <td>BBC</td>
+    <td>Snack Shack, Boccardo Business Courtyard </td>
+    <td>C4</td>
+  </tr>
+      <tr>
+    <td>DC</td>
+    <td>Dining Commons</td>
+    <td>D4</td>
+  </tr>
+      <tr>
+    <td>KING</td>
+    <td>On Fourth Cafe, Dr. Martin Luther King, Jr. Library</td>
+    <td>B1</td>
+  </tr>
+      <tr>
+    <td>MH</td>
+    <td>Just Below, MacQuarrie Hall</td>
+    <td>D2</td>
+  </tr>
+      <tr>
+    <td>SU</td>
+    <td>Union Square Food Court, Student Union</td>
+    <td>B3</td>
+  </tr>
+      <tr>
+    <td>SU</td>
+    <td>Starbucks, Student Union	</td>
+    <td>B3</td>
+  </tr>
+      <tr>
+    <td>SU</td>
+    <td>Subway, Student Union</td>
+    <td>B3</td>
+  </tr>
+     
+ <tbody>   
+</table>
+</div>			
+	</body>
+	<script>
+function searchFunction(event) {
+    var filter = event.target.value.toUpperCase();
+    var rows = document.querySelector("#myTable tbody").rows;
+    
+    for (var i = 0; i < rows.length; i++) {
+        var firstCol = rows[i].cells[0].textContent.toUpperCase();
+        var secondCol = rows[i].cells[1].textContent.toUpperCase();
+        var thirdCol = rows[i].cells[2].textContent.toUpperCase();
+        if (firstCol.indexOf(filter) > -1 || secondCol.indexOf(filter) > -1 ||  thirdCol.indexOf(filter) > -1) {
+            rows[i].style.display = "";
+        } else {
+            rows[i].style.display = "none";
+        }      
+    }
+}
+
+document.querySelector('#searchInput').addEventListener('keyup', searchFunction, false);
+</script>
+
+	
+	
+</html>
